@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fingerprint_description"
+        android:text="Confirm fingerprint to continue"
+        android:layout_marginBottom="19pt"
+        android:layout_marginTop="6pt"
+        android:layout_marginLeft="2pt"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:textColor="#696969"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10pt"
+        >
+        <ImageView
+            android:id="@+id/fingerprint_image"
+            android:layout_width="16pt"
+            android:layout_height="16pt"
+            android:layout_marginLeft="2pt"
+            android:src="@drawable/ic_fp_40px"
+            android:layout_marginRight="6pt"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/fingerprint_cta"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="Touch sensor now"
+            android:gravity="center"
+            android:textSize="8pt"
+            android:textColor="@android:color/darker_gray"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>
